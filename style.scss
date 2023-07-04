@@ -45,6 +45,9 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 1rem;
+    > .isClicked {
+      background: #59e391;
+    }
 
     > button,
     .play-again-button {
@@ -61,23 +64,21 @@ main {
       font-weight: 700;
       cursor: pointer;
     }
-    > .isClicked {
-      background: #59e391;
-    }
-    > .roll {
-      background-color: #5035ff;
-      width: 92.16px;
-      height: 35.84px;
-      flex-shrink: 0;
-      color: #fff;
-      text-align: center;
-      font-size: 1rem;
-      font-family: Karla;
-      font-weight: 700;
-      border: none;
-      border-radius: 3px;
-      cursor: pointer;
-    }
+  }
+
+  > .roll {
+    background-color: #5035ff;
+    width: 92.16px;
+    height: 35.84px;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    font-family: Karla;
+    font-weight: 700;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
   }
   > .winner {
     padding: 1rem;
