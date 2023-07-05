@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import Button from "./button";
 const Main = () => {
   const [nums, setNums] = useState(createButtons());
-  const [checker, setChecker] = useState(true);
   const [won, setWon] = useState(false);
+  const [animate, setAnimate] = useState(true);
 
   //creating our objects
   function createButtons() {
@@ -24,8 +24,7 @@ const Main = () => {
   }
   //handleClick 1.Generated a new number for the button clicked 2.Toggle isClicked to true
   function handleClickNumber(id) {
-    setChecker(false);
-
+    setAnimate(false);
     setNums((preArray) => {
       return preArray.map((num) => {
         if (num.id === id) {
@@ -77,10 +76,8 @@ const Main = () => {
   //Checking for a wind condition
   useEffect(() => {
     const value = checkForWin();
-    console.log(value);
     setWon(value);
   }, [nums]);
-
   return (
     <main>
       {won ? (
@@ -105,6 +102,7 @@ const Main = () => {
                 num={num}
                 handleClickNumber={handleClickNumber}
                 key={num.id}
+                animate={animate}
               />
             ))}
           </div>
