@@ -34,4 +34,3 @@ See the game in action by visiting the [Demo](https://your-demo-link.com).
 
 - React: A JavaScript library for building user interfaces
 - SCSS: A preprocessor for writing CSS with variables, mixins, and more
-- [Other dependencies you have used, e.g., React Router, Redux, etc.]
