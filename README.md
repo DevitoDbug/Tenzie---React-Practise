@@ -2,7 +2,7 @@
 
 Simple Tenzies Game is a web-based game created using React and SCSS. The game is a simplified version of the classic dice game called Tenzi. In this game, players click a button to roll the dice, and they can click on individual dice to pause their movement, preventing them from being rolled again. The objective is to match the target number by strategically pausing the dice.
 
-![Screenshot](screenshot.png)
+![Screenshot](https://github.com/DevitoDbug/Tenzie---React-Practise/blob/master/resources/image.jpg?raw=true)
 
 ## Features
 
