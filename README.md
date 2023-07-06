@@ -28,7 +28,7 @@ Simple Tenzies Game is a web-based game created using React and SCSS. The game i
 
 ## Demo
 
-See the game in action by visiting the [Demo](https://your-demo-link.com).
+See the game in action by visiting the [Demo](https://devitodbug.github.io/Tenzie---React-Practise/).
 
 ## Technologies Used
 
